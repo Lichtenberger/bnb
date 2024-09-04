@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaStar } from "react-icons/fa6";
 
-const Rental = ({ title, image, price, description }) => {
+const Rental = ({ title, image, price, description, rating }) => {
   return (
     <div className=''>
         <div className='relative '>
@@ -26,7 +26,7 @@ const Rental = ({ title, image, price, description }) => {
         </div>
         <div className='flex items-center space-x-1'>
             <FaStar />
-            <p className='text-[15px]'>4.9</p>
+            <p className='text-[15px]'>{rating}</p>
         </div>
     </div>
   )

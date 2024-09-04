@@ -1,3 +1,6 @@
+Mock up of AirBnB front end using React and TypeScript, stretch goal is to build out the backend and launch the app. To view the app just clone the repo, npm install (installs the dependencies), npm start will start the development server on localhost:3000, open the localhost in a browser and enjoy.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
